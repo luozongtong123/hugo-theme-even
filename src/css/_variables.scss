@@ -208,58 +208,55 @@ $code-font-size: 13px !default;
 // Font family of the code.
 $code-font-family: 'Fira Code', 'Consolas', 'Monaco', 'Menlo', monospace !default;
 
+// not used
 // Color of code highlight, solarized.
-$code-highlight-color: (
-  comment: #93a1a1,
-  keyword: #859900,
-  number: #2aa198,
-  title: #268bd2,
-  attribute: #b58900,
-  symbol: #cb4b16,
-  built_in: #dc322f,
-  formula: #eee8d5
-) !default;
+// $code-highlight-color: (
+//   comment: #93a1a1,
+//   keyword: #859900,
+//   number: #2aa198,
+//   title: #268bd2,
+//   attribute: #b58900,
+//   symbol: #cb4b16,
+//   built_in: #dc322f,
+//   formula: #eee8d5
+// ) !default;
 
 // Code type list.
 $code-type-list: (
   // Custom code type
   language-bash: "Bash",
+  language-sh: "sh",
   language-c: "C",
   language-cs: "C#",
   language-cpp: "C++",
   language-css: "CSS",
-  language-coffeescript: "CoffeeScript",
+  language-diff: "Diff",
+  language-patch: "Patch",
   language-html: "HTML",
   language-xml: "XML",
-  language-http: "HTTP",
   language-json: "JSON",
-  language-java: "Java",
   language-js: "JavaScript",
   language-javascript: "JavaScript",
   language-makefile: "Makefile",
   language-markdown: "Markdown",
-  language-objectivec: "Objective-C",
-  language-php: "PHP",
-  language-perl: "Perl",
   language-python: "Python",
-  language-ruby: "Ruby",
   language-sql: "SQL",
   language-shell: "Shell",
 
-  language-erlang: "Erlang",
-  language-go: "Go",
-  language-groovy: "Groovy",
-  language-haskell: "Haskell",
-  language-kotlin: "Kotlin",
-  language-less: "Less",
-  language-lisp: "Lisp",
-  language-lua: "Lua",
+  language-asm: "ARM Assembly",
+  language-arduino: "Arduino",
+  language-autohotkey: "AutoHotkey",
+  language-cmake: "CMake",
+  language-cmd: "cmd",
+  language-bat: "bat",
+  language-docker: "Docker",
+  language-fsharp: "F#",
   language-matlab: "Matlab",
-  language-rust: "Rust",
+  language-powershell: "PowerShell",
   language-scss: "Scss",
-  language-scala: "Scala",
-  language-swift: "Swift",
-  language-typescript: "TypeScript",
+  language-tex: "TeX",
+  language-twig: "Twig",
+  language-vb: "VB",
   language-yml: "YAML",
   language-yaml: "YAML",
   language-toml: "TOML"
