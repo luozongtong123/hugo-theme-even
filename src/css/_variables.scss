@@ -55,10 +55,10 @@ $global-container-padding: 0 20px !default;
 $global-lineheight: 1.5 !default;
 
 // Font family of the site.
-$global-font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif !default;
+$global-font-family: 'Source Sans Pro', 'Helvetica Neue', 'Arial', sans-serif !default;
 
 // Serif font family of the site.
-$global-serif-font-family: Athelas, STHeiti, Microsoft Yahei, serif !default;
+$global-serif-font-family: 'Athelas', 'STHeiti', 'Microsoft Yahei', serif !default;
 
 // Background color of the site.
 $global-background: $white !default;
@@ -91,11 +91,23 @@ $header-padding: 20px 20px !default;
   font-style: normal;
 }
 
+// Font family: Fira Code
+@font-face {
+  font-family: 'Fira Code';
+  src: url('../fonts/FiraCode/FiraCode-Regular.eot');
+  src: local('Fira Code'), url('../fonts/FiraCode/FiraCode-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/FiraCode/FiraCode-Regular.woff2') format('woff2'),
+  url('../fonts/FiraCode/FiraCode-Regular.woff') format('woff'),
+  url('../fonts/FiraCode/FiraCode-Regular.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
 // Font size of the logo.
 $logo-font-size: 48px !default;
 
 // Font family of the logo.
-$logo-font-family: 'Chancery', cursive, LiSu, sans-serif !default;
+$logo-font-family: 'Chancery', 'cursive', 'LiSu', sans-serif !default;
 
 // Margin of menu item.
 $menu-item-margin-left: 10px !default;
@@ -193,7 +205,7 @@ $code-color: #c7254e !default;
 $code-font-size: 13px !default;
 
 // Font family of the code.
-$code-font-family: Consolas, Monaco, Menlo, Consolas, monospace !default;
+$code-font-family: 'Fira Code', 'Consolas', 'Monaco', 'Menlo', monospace !default;
 
 // Color of code highlight, solarized.
 $code-highlight-color: (
