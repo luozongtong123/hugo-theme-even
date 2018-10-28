@@ -1,0 +1,109 @@
+{{if eq (.Get 0) "tip"}}
+<div class="admonition-tip">
+    <p class="admonition-tip-title">
+        Tip
+    </p>
+    <p>
+        {{- .Inner -}}
+    </p>
+</div>
+{{else if eq (.Get 0) "note"}}
+<div class="admonition-note">
+    <p class="admonition-note-title">
+        Note
+    </p>
+    <p>
+        {{- .Inner -}}
+    </p>
+</div>
+{{else if eq (.Get 0) "warning"}}
+<div class="admonition-warning">
+    <p class="admonition-warning-title">
+        Warning
+    </p>
+    <p>
+        {{- .Inner -}}
+    </p>
+</div>
+{{else if eq (.Get 0) "question"}}
+<div class="admonition-question">
+    <p class="admonition-question-title">
+        Question
+    </p>
+    <p>
+        {{- .Inner -}}
+    </p>
+</div>
+{{else if eq (.Get 0) "conclusion"}}
+<div class="admonition-conclusion">
+    <p class="admonition-conclusion-title">
+        Conclusion
+    </p>
+    <p>
+        {{- .Inner -}}
+    </p>
+</div>
+{{else if eq (.Get 0) "bullshit"}}
+<div class="admonition-bullshit">
+    <p class="admonition-bullshit-title">
+        Bullshit
+    </p>
+    <p>
+        {{- .Inner -}}
+    </p>
+</div>
+{{else if eq (.Get 0) "attention"}}
+<div class="admonition-attention">
+    <p class="admonition-attention-title">
+        Attention
+    </p>
+    <p>
+        {{- .Inner -}}
+    </p>
+</div>
+{{else if eq (.Get 0) "caution"}}
+<div class="admonition-attention">
+    <p class="admonition-attention-title">
+        Caution
+    </p>
+    <p>
+        {{- .Inner -}}
+    </p>
+</div>
+{{else if eq (.Get 0) "danger"}}
+<div class="admonition-attention">
+    <p class="admonition-attention-title">
+        Danger
+    </p>
+    <p>
+        {{- .Inner -}}
+    </p>
+</div>
+{{else if eq (.Get 0) "erro"}}
+<div class="admonition-attention">
+    <p class="admonition-attention-title">
+        Erro
+    </p>
+    <p>
+        {{- .Inner -}}
+    </p>
+</div>
+{{else if eq (.Get 0) "important"}}
+<div class="admonition-warning">
+    <p class="admonition-warning-title">
+        Important
+    </p>
+    <p>
+        {{- .Inner -}}
+    </p>
+</div>
+{{else if eq (.Get 0) "hint"}}
+<div class="admonition-note">
+    <p class="admonition-note-title">
+        Hint
+    </p>
+    <p>
+        {{- .Inner -}}
+    </p>
+</div>
+{{end}}
