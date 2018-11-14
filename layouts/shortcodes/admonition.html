@@ -25,6 +25,15 @@
         {{- .Inner -}}
     </p>
 </div>
+{{else if eq (.Get 0) "update"}}
+<div class="admonition-warning">
+    <p class="admonition-warning-title">
+        Update
+    </p>
+    <p>
+        {{- .Inner -}}
+    </p>
+</div>
 {{else if eq (.Get 0) "question"}}
 <div class="admonition-question">
     <p class="admonition-question-title">
