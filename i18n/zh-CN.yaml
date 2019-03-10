@@ -50,7 +50,7 @@ rewardAlipay:
   other: "支付宝打赏"
 
 rewardWechat:
-  other: "微信打赏"
+  other: "微信长按/扫码打赏"
 
 wordCount:
   one: "约 {{ .Count }} 字"
