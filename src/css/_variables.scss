@@ -261,7 +261,10 @@ $code-type-list: (
   language-vb: "VB",
   language-yml: "YAML",
   language-yaml: "YAML",
-  language-toml: "TOML"
+  language-toml: "TOML",
+  language-go: "Go",
+  language-typescript: "TypeScript",
+  language-lua: "Lua"
 ) !default;
 
 // Color of the code background.
